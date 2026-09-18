@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "updated": "2026-09-18",
+  "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
+  "severity_scale": {
+    "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
+    "medium": "Hosting/VPS dudoso con patrón de abuso moderado",
+    "low": "Ruido bajo o ASN amplio (tránsito/ISP); bloqueo según tolerancia a falsos positivos"
+  },
+  "asns": [
+    {
+      "asn": 174,
+      "name": "Cogent Communications",
+      "country": "US",
+      "severity": "low",
+      "notes": "Backbone/tránsito. Volumen bajo en sitios ES; bloqueo por ruido internacional."
+    },
+    {
+      "asn": 6424,
+      "name": "EDGOO Networks",
+      "country": "PT",
+      "severity": "medium",
+      "notes": "Hosting y redes; asociado a abuso y scrapers."
+    },
+    {
+      "asn": 6830,
+      "name": "Liberty Global Europe",
+      "country": "NL",
+      "severity": "low",
+      "notes": "ISP europeo grande; revisar si afecta clientes reales."
+    },
+    {
+      "asn": 9009,
+      "name": "M247 Europe",
+      "country": "RO",
+      "severity": "high",
+      "notes": "VPN/hosting; mucho spray (muchas IPs con 1–2 req)."
+    },
+    {
+      "asn": 11798,
+      "name": "Ace Data Centers",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Datacenter US; spray en varios prefijos."
+    },
+    {
+      "asn": 13213,
+      "name": "THG Hosting / UK2",
+      "country": "GB",
+      "severity": "medium",
+      "notes": "Hosting UK."
+    },
+    {
+      "asn": 18779,
+      "name": "EGIHosting",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting US."
+    },
+    {
+      "asn": 20473,
+      "name": "Vultr (Constant Company)",
+      "country": "US",
+      "severity": "medium",
+      "notes": "VPS popular; abuso frecuente de scrapers."
+    },
+    {
+      "asn": 30058,
+      "name": "FDCServers",
+      "country": "US",
+      "severity": "high",
+      "notes": "Spray claro (decenas de IPs a 1–2 req)."
+    },
+    {
+      "asn": 36352,
+      "name": "HostPapa / ColoCrossing",
+      "country": "US",
+      "severity": "high",
+      "notes": "Spray en 23.95.163.0/24 y 198.46.220.0/24."
+    },
+    {
+      "asn": 40676,
+      "name": "Psychz Networks",
+      "country": "US",
+      "severity": "high",
+      "notes": "Hosting frecuentemente abusado."
+    },
+    {
+      "asn": 43180,
+      "name": "Trunk Networks",
+      "country": "SC",
+      "severity": "medium",
+      "notes": "Volumen bajo; patrón spray en prefijos compartidos."
+    },
+    {
+      "asn": 50077,
+      "name": "SYN LTD",
+      "country": "GB",
+      "severity": "medium",
+      "notes": "Hosting."
+    },
+    {
+      "asn": 132817,
+      "name": "DZCRD Networks",
+      "country": "BD",
+      "severity": "medium",
+      "notes": "Redes APAC; hosting/transitación dudosa."
+    },
+    {
+      "asn": 199081,
+      "name": "Lancom Ltd.",
+      "country": "GR",
+      "severity": "medium",
+      "notes": "Spray bajo (p.ej. 92.112.83.0/24)."
+    },
+    {
+      "asn": 200373,
+      "name": "3xK Tech GmbH",
+      "country": "DE",
+      "severity": "high",
+      "notes": "Más agresivo observado: ~11k req desde 1–2 IPs."
+    },
+    {
+      "asn": 202015,
+      "name": "HZ Hosting",
+      "country": "BG",
+      "severity": "medium",
+      "notes": "Hosting BG."
+    },
+    {
+      "asn": 202914,
+      "name": "Adeo Datacenter",
+      "country": "DK",
+      "severity": "medium",
+      "notes": "Volumen bajo; prefijo compartido."
+    },
+    {
+      "asn": 203020,
+      "name": "HostRoyale Technologies",
+      "country": "IN",
+      "severity": "high",
+      "notes": "Mucho spray multi-prefijo."
+    },
+    {
+      "asn": 203061,
+      "name": "UAB code200",
+      "country": "LT",
+      "severity": "medium",
+      "notes": "Hosting LT."
+    },
+    {
+      "asn": 205659,
+      "name": "UAB code200 (ISP2)",
+      "country": "LT",
+      "severity": "medium",
+      "notes": "Hosting LT (mismo grupo code200)."
+    },
+    {
+      "asn": 207990,
+      "name": "HostRoyale (customer)",
+      "country": "IN",
+      "severity": "high",
+      "notes": "Spray asociado a HostRoyale."
+    },
+    {
+      "asn": 212238,
+      "name": "Datacamp / CDNEXT",
+      "country": "GB",
+      "severity": "high",
+      "notes": "Proxy/CDN abusado; mucho spray."
+    },
+    {
+      "asn": 393886,
+      "name": "Leaseweb USA (Miami)",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Familia Leaseweb USA; spray bajo."
+    },
+    {
+      "asn": 394380,
+      "name": "Leaseweb USA (Dallas)",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Familia Leaseweb USA."
+    },
+    {
+      "asn": 394474,
+      "name": "WhiteLabelColo",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Spray en 167.250.108.0/22."
+    },
+    {
+      "asn": 396190,
+      "name": "Leaseweb USA (Seattle)",
+      "country": "US",
+      "severity": "high",
+      "notes": "Spray en 152.163.4.0/22 y 152.163.216.0/22."
+    },
+    {
+      "asn": 401152,
+      "name": "Ace Data Centers II",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Spray en 108.165.172.0/24."
+    }
+  ]
+}
