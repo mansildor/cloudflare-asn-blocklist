@@ -5,15 +5,24 @@ asn,name,country,severity
 9009,"M247 Europe",RO,high
 11798,"Ace Data Centers",US,medium
 13213,"THG Hosting / UK2",GB,medium
+14061,"DigitalOcean",US,high
 18779,"EGIHosting",US,medium
+20454,"Secured Servers LLC",US,medium
 20473,"Vultr (Constant Company)",US,medium
+23033,"Wowrack.com",US,medium
+24961,"myLoc / WIIT AG",DE,medium
 30058,"FDCServers",US,high
 36352,"HostPapa / ColoCrossing",US,high
 40676,"Psychz Networks",US,high
 43180,"Trunk Networks",SC,medium
+48090,"DMZHOST / TECHOFF SRV",GB,high
 50077,"SYN LTD",GB,medium
+53850,"GorillaServers",US,medium
+62874,"Web2Objects",US,medium
 132817,"DZCRD Networks",BD,medium
+197540,"netcup GmbH",DE,high
 199081,"Lancom Ltd.",GR,medium
+199218,"ProtonVPN-2 / Proton AG",CH,medium
 200373,"3xK Tech GmbH",DE,high
 202015,"HZ Hosting",BG,medium
 202914,"Adeo Datacenter",DK,medium
@@ -21,9 +30,11 @@ asn,name,country,severity
 203061,"UAB code200",LT,medium
 205659,"UAB code200 (ISP2)",LT,medium
 207990,"HostRoyale (customer)",IN,high
+208137,"Feo Prest SRL (FPS12)",RO,high
 212238,"Datacamp / CDNEXT",GB,high
 393886,"Leaseweb USA (Miami)",US,medium
 394380,"Leaseweb USA (Dallas)",US,medium
 394474,"WhiteLabelColo",US,medium
 396190,"Leaseweb USA (Seattle)",US,high
+400529,"Infraly LLC",US,medium
 401152,"Ace Data Centers II",US,medium

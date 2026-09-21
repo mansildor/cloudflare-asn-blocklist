@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-18",
+  "updated": "2026-09-21",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -51,6 +51,13 @@
       "notes": "Hosting UK."
     },
     {
+      "asn": 14061,
+      "name": "DigitalOcean",
+      "country": "US",
+      "severity": "high",
+      "notes": "VPS grande; abuso observado; posible falso positivo en automatismos legítimos."
+    },
+    {
       "asn": 18779,
       "name": "EGIHosting",
       "country": "US",
@@ -58,11 +65,32 @@
       "notes": "Hosting US."
     },
     {
+      "asn": 20454,
+      "name": "Secured Servers LLC",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; volumen moderado."
+    },
+    {
       "asn": 20473,
       "name": "Vultr (Constant Company)",
       "country": "US",
       "severity": "medium",
       "notes": "VPS popular; abuso frecuente de scrapers."
+    },
+    {
+      "asn": 23033,
+      "name": "Wowrack.com",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; volumen moderado desde pocas IPs."
+    },
+    {
+      "asn": 24961,
+      "name": "myLoc / WIIT AG",
+      "country": "DE",
+      "severity": "medium",
+      "notes": "Hosting; volumen moderado."
     },
     {
       "asn": 30058,
@@ -93,11 +121,32 @@
       "notes": "Volumen bajo; patrón spray en prefijos compartidos."
     },
     {
+      "asn": 48090,
+      "name": "DMZHOST / TECHOFF SRV",
+      "country": "GB",
+      "severity": "high",
+      "notes": "Hosting; patrón agresivo multi-IP."
+    },
+    {
       "asn": 50077,
       "name": "SYN LTD",
       "country": "GB",
       "severity": "medium",
       "notes": "Hosting."
+    },
+    {
+      "asn": 53850,
+      "name": "GorillaServers",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; volumen moderado."
+    },
+    {
+      "asn": 62874,
+      "name": "Web2Objects",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; volumen moderado."
     },
     {
       "asn": 132817,
@@ -107,11 +156,25 @@
       "notes": "Redes APAC; hosting/transitación dudosa."
     },
     {
+      "asn": 197540,
+      "name": "netcup GmbH",
+      "country": "DE",
+      "severity": "high",
+      "notes": "VPS grande; abuso observado; posible falso positivo en automatismos legítimos."
+    },
+    {
       "asn": 199081,
       "name": "Lancom Ltd.",
       "country": "GR",
       "severity": "medium",
       "notes": "Spray bajo (p.ej. 92.112.83.0/24)."
+    },
+    {
+      "asn": 199218,
+      "name": "ProtonVPN-2 / Proton AG",
+      "country": "CH",
+      "severity": "medium",
+      "notes": "Salida VPN; tráfico de proxy/VPN."
     },
     {
       "asn": 200373,
@@ -163,6 +226,13 @@
       "notes": "Spray asociado a HostRoyale."
     },
     {
+      "asn": 208137,
+      "name": "Feo Prest SRL (FPS12)",
+      "country": "RO",
+      "severity": "high",
+      "notes": "Hosting; tráfico agresivo concentrado en pocas IPs."
+    },
+    {
       "asn": 212238,
       "name": "Datacamp / CDNEXT",
       "country": "GB",
@@ -196,6 +266,13 @@
       "country": "US",
       "severity": "high",
       "notes": "Spray en 152.163.4.0/22 y 152.163.216.0/22."
+    },
+    {
+      "asn": 400529,
+      "name": "Infraly LLC",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; volumen moderado."
     },
     {
       "asn": 401152,
