@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -28,6 +28,13 @@
       "country": "NL",
       "severity": "low",
       "notes": "ISP europeo grande; revisar si afecta clientes reales."
+    },
+    {
+      "asn": 7979,
+      "name": "Servers.com",
+      "country": "US",
+      "severity": "high",
+      "notes": "Hosting; patrón spray."
     },
     {
       "asn": 9009,
@@ -107,6 +114,13 @@
       "notes": "Spray en 23.95.163.0/24 y 198.46.220.0/24."
     },
     {
+      "asn": 39855,
+      "name": "Mod Mission Critical",
+      "country": "NL",
+      "severity": "medium",
+      "notes": "Hosting; volumen moderado multi-IP."
+    },
+    {
       "asn": 40676,
       "name": "Psychz Networks",
       "country": "US",
@@ -119,6 +133,13 @@
       "country": "SC",
       "severity": "medium",
       "notes": "Volumen bajo; patrón spray en prefijos compartidos."
+    },
+    {
+      "asn": 47007,
+      "name": "Colocation America",
+      "country": "US",
+      "severity": "high",
+      "notes": "Hosting; patrón spray."
     },
     {
       "asn": 48090,
@@ -149,11 +170,39 @@
       "notes": "Hosting; volumen moderado."
     },
     {
+      "asn": 64445,
+      "name": "NetJoin",
+      "country": "IT",
+      "severity": "high",
+      "notes": "Hosting; patrón spray."
+    },
+    {
       "asn": 132817,
       "name": "DZCRD Networks",
       "country": "BD",
       "severity": "medium",
       "notes": "Redes APAC; hosting/transitación dudosa."
+    },
+    {
+      "asn": 133499,
+      "name": "HostRoyale AP",
+      "country": "IN",
+      "severity": "medium",
+      "notes": "Hosting; asociado a HostRoyale."
+    },
+    {
+      "asn": 134450,
+      "name": "HostRoyale AP",
+      "country": "IN",
+      "severity": "high",
+      "notes": "Hosting; asociado a HostRoyale."
+    },
+    {
+      "asn": 150436,
+      "name": "Byteplus",
+      "country": "SG",
+      "severity": "high",
+      "notes": "Cloud/hosting; patrón spray."
     },
     {
       "asn": 197540,
@@ -184,6 +233,13 @@
       "notes": "Más agresivo observado: ~11k req desde 1–2 IPs."
     },
     {
+      "asn": 201341,
+      "name": "trafficforce / Centurion",
+      "country": "LT",
+      "severity": "high",
+      "notes": "Hosting; patrón spray multi-IP."
+    },
+    {
       "asn": 202015,
       "name": "HZ Hosting",
       "country": "BG",
@@ -212,6 +268,13 @@
       "notes": "Hosting LT."
     },
     {
+      "asn": 204646,
+      "name": "web2objects (customer)",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; asociado a Web2Objects."
+    },
+    {
       "asn": 205659,
       "name": "UAB code200 (ISP2)",
       "country": "LT",
@@ -233,11 +296,32 @@
       "notes": "Hosting; tráfico agresivo concentrado en pocas IPs."
     },
     {
+      "asn": 209709,
+      "name": "code200 ISP1",
+      "country": "LT",
+      "severity": "high",
+      "notes": "Hosting LT; asociado a grupo code200."
+    },
+    {
       "asn": 212238,
       "name": "Datacamp / CDNEXT",
       "country": "GB",
       "severity": "high",
       "notes": "Proxy/CDN abusado; mucho spray."
+    },
+    {
+      "asn": 215930,
+      "name": "Cipher Operations",
+      "country": "RS",
+      "severity": "high",
+      "notes": "Hosting; tráfico agresivo concentrado en pocas IPs."
+    },
+    {
+      "asn": 218785,
+      "name": "TC Datacenter",
+      "country": "HK",
+      "severity": "high",
+      "notes": "Hosting; tráfico agresivo concentrado en pocas IPs."
     },
     {
       "asn": 393886,
@@ -268,6 +352,20 @@
       "notes": "Spray en 152.163.4.0/22 y 152.163.216.0/22."
     },
     {
+      "asn": 396356,
+      "name": "Latitude.sh",
+      "country": "US",
+      "severity": "high",
+      "notes": "Hosting; patrón spray."
+    },
+    {
+      "asn": 398781,
+      "name": "Oculus Networks",
+      "country": "US",
+      "severity": "high",
+      "notes": "Hosting; patrón spray."
+    },
+    {
       "asn": 400529,
       "name": "Infraly LLC",
       "country": "US",
@@ -280,6 +378,13 @@
       "country": "US",
       "severity": "medium",
       "notes": "Spray en 108.165.172.0/24."
+    },
+    {
+      "asn": 401560,
+      "name": "OneCable Network",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting/proxy; volumen alto multi-IP."
     }
   ]
 }
