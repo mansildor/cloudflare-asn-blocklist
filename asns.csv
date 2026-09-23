@@ -7,6 +7,7 @@ asn,name,country,severity
 11798,"Ace Data Centers",US,medium
 13213,"THG Hosting / UK2",GB,medium
 14061,"DigitalOcean",US,high
+16141,"Net Bull / Nethouse",IT,medium
 18779,"EGIHosting",US,medium
 20454,"Secured Servers LLC",US,medium
 20473,"Vultr (Constant Company)",US,medium
@@ -14,19 +15,27 @@ asn,name,country,severity
 24961,"myLoc / WIIT AG",DE,medium
 30058,"FDCServers",US,high
 36352,"HostPapa / ColoCrossing",US,high
+38186,"Forewin Telecom Group",HK,medium
 39855,"Mod Mission Critical",NL,medium
 40676,"Psychz Networks",US,high
 43180,"Trunk Networks",SC,medium
+46261,"QuickPacket",US,high
 47007,"Colocation America",US,high
 48090,"DMZHOST / TECHOFF SRV",GB,high
 50077,"SYN LTD",GB,medium
 53850,"GorillaServers",US,medium
+55470,"Cyfuture India",IN,high
+56887,"SC TECHNOLOGICAL SRL",RO,medium
 62874,"Web2Objects",US,medium
 64445,"NetJoin",IT,high
 132817,"DZCRD Networks",BD,medium
+133296,"Web Werks India",IN,medium
 133499,"HostRoyale AP",IN,medium
 134450,"HostRoyale AP",IN,high
+135377,"UCLOUD",HK,high
+136557,"Host Universal",AU,medium
 150436,"Byteplus",SG,high
+154395,"Rackdog LLC",US,high
 197540,"netcup GmbH",DE,high
 199081,"Lancom Ltd.",GR,medium
 199218,"ProtonVPN-2 / Proton AG",CH,medium
@@ -36,12 +45,14 @@ asn,name,country,severity
 202914,"Adeo Datacenter",DK,medium
 203020,"HostRoyale Technologies",IN,high
 203061,"UAB code200",LT,medium
+204287,"HostRoyale Technologies",IN,high
 204646,"web2objects (customer)",US,medium
 205659,"UAB code200 (ISP2)",LT,medium
 207990,"HostRoyale (customer)",IN,high
 208137,"Feo Prest SRL (FPS12)",RO,high
 209709,"code200 ISP1",LT,high
 212238,"Datacamp / CDNEXT",GB,high
+214669,"STARLIGHT TECH",HK,high
 215930,"Cipher Operations",RS,high
 218785,"TC Datacenter",HK,high
 393886,"Leaseweb USA (Miami)",US,medium
