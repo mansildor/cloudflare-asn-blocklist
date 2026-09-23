@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -65,6 +65,13 @@
       "notes": "VPS grande; abuso observado; posible falso positivo en automatismos legítimos."
     },
     {
+      "asn": 16141,
+      "name": "Net Bull / Nethouse",
+      "country": "IT",
+      "severity": "medium",
+      "notes": "Hosting; volumen moderado."
+    },
+    {
       "asn": 18779,
       "name": "EGIHosting",
       "country": "US",
@@ -114,6 +121,13 @@
       "notes": "Spray en 23.95.163.0/24 y 198.46.220.0/24."
     },
     {
+      "asn": 38186,
+      "name": "Forewin Telecom Group",
+      "country": "HK",
+      "severity": "medium",
+      "notes": "Hosting; volumen moderado."
+    },
+    {
       "asn": 39855,
       "name": "Mod Mission Critical",
       "country": "NL",
@@ -133,6 +147,13 @@
       "country": "SC",
       "severity": "medium",
       "notes": "Volumen bajo; patrón spray en prefijos compartidos."
+    },
+    {
+      "asn": 46261,
+      "name": "QuickPacket",
+      "country": "US",
+      "severity": "high",
+      "notes": "Hosting; spray claro multi-IP."
     },
     {
       "asn": 47007,
@@ -163,6 +184,20 @@
       "notes": "Hosting; volumen moderado."
     },
     {
+      "asn": 55470,
+      "name": "Cyfuture India",
+      "country": "IN",
+      "severity": "high",
+      "notes": "Hosting; patrón spray."
+    },
+    {
+      "asn": 56887,
+      "name": "SC TECHNOLOGICAL SRL",
+      "country": "RO",
+      "severity": "medium",
+      "notes": "Hosting; volumen moderado."
+    },
+    {
       "asn": 62874,
       "name": "Web2Objects",
       "country": "US",
@@ -184,6 +219,13 @@
       "notes": "Redes APAC; hosting/transitación dudosa."
     },
     {
+      "asn": 133296,
+      "name": "Web Werks India",
+      "country": "IN",
+      "severity": "medium",
+      "notes": "Hosting; volumen moderado."
+    },
+    {
       "asn": 133499,
       "name": "HostRoyale AP",
       "country": "IN",
@@ -198,11 +240,32 @@
       "notes": "Hosting; asociado a HostRoyale."
     },
     {
+      "asn": 135377,
+      "name": "UCLOUD",
+      "country": "HK",
+      "severity": "high",
+      "notes": "Hosting; tráfico agresivo concentrado en pocas IPs."
+    },
+    {
+      "asn": 136557,
+      "name": "Host Universal",
+      "country": "AU",
+      "severity": "medium",
+      "notes": "Hosting; volumen moderado."
+    },
+    {
       "asn": 150436,
       "name": "Byteplus",
       "country": "SG",
       "severity": "high",
       "notes": "Cloud/hosting; patrón spray."
+    },
+    {
+      "asn": 154395,
+      "name": "Rackdog LLC",
+      "country": "US",
+      "severity": "high",
+      "notes": "Hosting; patrón spray."
     },
     {
       "asn": 197540,
@@ -268,6 +331,13 @@
       "notes": "Hosting LT."
     },
     {
+      "asn": 204287,
+      "name": "HostRoyale Technologies",
+      "country": "IN",
+      "severity": "high",
+      "notes": "Hosting; asociado a HostRoyale."
+    },
+    {
       "asn": 204646,
       "name": "web2objects (customer)",
       "country": "US",
@@ -308,6 +378,13 @@
       "country": "GB",
       "severity": "high",
       "notes": "Proxy/CDN abusado; mucho spray."
+    },
+    {
+      "asn": 214669,
+      "name": "STARLIGHT TECH",
+      "country": "HK",
+      "severity": "high",
+      "notes": "Hosting; patrón spray."
     },
     {
       "asn": 215930,
