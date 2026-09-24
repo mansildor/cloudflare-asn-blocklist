@@ -2,17 +2,23 @@ asn,name,country,severity
 174,"Cogent Communications",US,low
 6424,"EDGOO Networks",PT,medium
 6830,"Liberty Global Europe",NL,low
+7203,"Leaseweb USA (San Francisco)",US,medium
 7979,"Servers.com",US,high
 9009,"M247 Europe",RO,high
 11798,"Ace Data Centers",US,medium
 13213,"THG Hosting / UK2",GB,medium
 14061,"DigitalOcean",US,high
+14956,"RouterHosting",US,medium
 16141,"Net Bull / Nethouse",IT,medium
 18779,"EGIHosting",US,medium
+19148,"Leaseweb USA (Phoenix)",US,medium
 20454,"Secured Servers LLC",US,medium
 20473,"Vultr (Constant Company)",US,medium
+21769,"Colocation America",US,high
 23033,"Wowrack.com",US,medium
 24961,"myLoc / WIIT AG",DE,medium
+26658,"Hengtong IDC",US,high
+27411,"Leaseweb USA (Chicago)",US,medium
 30058,"FDCServers",US,high
 36352,"HostPapa / ColoCrossing",US,high
 38186,"Forewin Telecom Group",HK,medium
@@ -24,22 +30,29 @@ asn,name,country,severity
 48090,"DMZHOST / TECHOFF SRV",GB,high
 50077,"SYN LTD",GB,medium
 53850,"GorillaServers",US,medium
+53856,"NJ IX",US,medium
+54903,"globalroutesolutions",US,medium
 55470,"Cyfuture India",IN,high
 56887,"SC TECHNOLOGICAL SRL",RO,medium
 62874,"Web2Objects",US,medium
+64249,"Endoffice",US,medium
+64286,"LogicWeb",US,high
 64445,"NetJoin",IT,high
 132817,"DZCRD Networks",BD,medium
 133296,"Web Werks India",IN,medium
 133499,"HostRoyale AP",IN,medium
+133944,"Trafficforce",LT,high
 134450,"HostRoyale AP",IN,high
 135377,"UCLOUD",HK,high
 136557,"Host Universal",AU,medium
 150436,"Byteplus",SG,high
+152179,"Global Communication Network",HK,high
 154395,"Rackdog LLC",US,high
 197540,"netcup GmbH",DE,high
 199081,"Lancom Ltd.",GR,medium
 199218,"ProtonVPN-2 / Proton AG",CH,medium
 200373,"3xK Tech GmbH",DE,high
+201207,"Getechbrothers",LT,high
 201341,"trafficforce / Centurion",LT,high
 202015,"HZ Hosting",BG,medium
 202914,"Adeo Datacenter",DK,medium
@@ -51,16 +64,22 @@ asn,name,country,severity
 207990,"HostRoyale (customer)",IN,high
 208137,"Feo Prest SRL (FPS12)",RO,high
 209709,"code200 ISP1",LT,high
+211680,"BitSight / NSEC",PT,medium
 212238,"Datacamp / CDNEXT",GB,high
 214669,"STARLIGHT TECH",HK,high
 215930,"Cipher Operations",RS,high
 218785,"TC Datacenter",HK,high
+263735,"Buena Hosting",HN,medium
+263829,"Host Para Tu Vida",HN,medium
 393886,"Leaseweb USA (Miami)",US,medium
 394380,"Leaseweb USA (Dallas)",US,medium
 394474,"WhiteLabelColo",US,medium
+395954,"Leaseweb USA (Los Angeles)",US,medium
 396190,"Leaseweb USA (Seattle)",US,high
+396319,"Oxylabs",US,high
 396356,"Latitude.sh",US,high
 398781,"Oculus Networks",US,high
 400529,"Infraly LLC",US,medium
+400810,"BreezeHost",US,high
 401152,"Ace Data Centers II",US,medium
 401560,"OneCable Network",US,medium

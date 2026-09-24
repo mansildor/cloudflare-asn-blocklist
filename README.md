@@ -28,7 +28,7 @@ curl -fsSL https://raw.githubusercontent.com/mansildor/cloudflare-asn-blocklist/
 Acción recomendada: **Block**. Mantén aparte un `skip` para pasarelas de pago si aplica (p.ej. Redsys ASN 31627).
 
 ```
-(ip.src.asnum eq 174) or (ip.src.asnum eq 6424) or (ip.src.asnum eq 6830) or (ip.src.asnum eq 7979) or (ip.src.asnum eq 9009) or (ip.src.asnum eq 11798) or (ip.src.asnum eq 13213) or (ip.src.asnum eq 14061) or (ip.src.asnum eq 16141) or (ip.src.asnum eq 18779) or (ip.src.asnum eq 20454) or (ip.src.asnum eq 20473) or (ip.src.asnum eq 23033) or (ip.src.asnum eq 24961) or (ip.src.asnum eq 30058) or (ip.src.asnum eq 36352) or (ip.src.asnum eq 38186) or (ip.src.asnum eq 39855) or (ip.src.asnum eq 40676) or (ip.src.asnum eq 43180) or (ip.src.asnum eq 46261) or (ip.src.asnum eq 47007) or (ip.src.asnum eq 48090) or (ip.src.asnum eq 50077) or (ip.src.asnum eq 53850) or (ip.src.asnum eq 55470) or (ip.src.asnum eq 56887) or (ip.src.asnum eq 62874) or (ip.src.asnum eq 64445) or (ip.src.asnum eq 132817) or (ip.src.asnum eq 133296) or (ip.src.asnum eq 133499) or (ip.src.asnum eq 134450) or (ip.src.asnum eq 135377) or (ip.src.asnum eq 136557) or (ip.src.asnum eq 150436) or (ip.src.asnum eq 154395) or (ip.src.asnum eq 197540) or (ip.src.asnum eq 199081) or (ip.src.asnum eq 199218) or (ip.src.asnum eq 200373) or (ip.src.asnum eq 201341) or (ip.src.asnum eq 202015) or (ip.src.asnum eq 202914) or (ip.src.asnum eq 203020) or (ip.src.asnum eq 203061) or (ip.src.asnum eq 204287) or (ip.src.asnum eq 204646) or (ip.src.asnum eq 205659) or (ip.src.asnum eq 207990) or (ip.src.asnum eq 208137) or (ip.src.asnum eq 209709) or (ip.src.asnum eq 212238) or (ip.src.asnum eq 214669) or (ip.src.asnum eq 215930) or (ip.src.asnum eq 218785) or (ip.src.asnum eq 393886) or (ip.src.asnum eq 394380) or (ip.src.asnum eq 394474) or (ip.src.asnum eq 396190) or (ip.src.asnum eq 396356) or (ip.src.asnum eq 398781) or (ip.src.asnum eq 400529) or (ip.src.asnum eq 401152) or (ip.src.asnum eq 401560)
+(ip.src.asnum eq 174) or (ip.src.asnum eq 6424) or (ip.src.asnum eq 6830) or (ip.src.asnum eq 7203) or (ip.src.asnum eq 7979) or (ip.src.asnum eq 9009) or (ip.src.asnum eq 11798) or (ip.src.asnum eq 13213) or (ip.src.asnum eq 14061) or (ip.src.asnum eq 14956) or (ip.src.asnum eq 16141) or (ip.src.asnum eq 18779) or (ip.src.asnum eq 19148) or (ip.src.asnum eq 20454) or (ip.src.asnum eq 20473) or (ip.src.asnum eq 21769) or (ip.src.asnum eq 23033) or (ip.src.asnum eq 24961) or (ip.src.asnum eq 26658) or (ip.src.asnum eq 27411) or (ip.src.asnum eq 30058) or (ip.src.asnum eq 36352) or (ip.src.asnum eq 38186) or (ip.src.asnum eq 39855) or (ip.src.asnum eq 40676) or (ip.src.asnum eq 43180) or (ip.src.asnum eq 46261) or (ip.src.asnum eq 47007) or (ip.src.asnum eq 48090) or (ip.src.asnum eq 50077) or (ip.src.asnum eq 53850) or (ip.src.asnum eq 53856) or (ip.src.asnum eq 54903) or (ip.src.asnum eq 55470) or (ip.src.asnum eq 56887) or (ip.src.asnum eq 62874) or (ip.src.asnum eq 64249) or (ip.src.asnum eq 64286) or (ip.src.asnum eq 64445) or (ip.src.asnum eq 132817) or (ip.src.asnum eq 133296) or (ip.src.asnum eq 133499) or (ip.src.asnum eq 133944) or (ip.src.asnum eq 134450) or (ip.src.asnum eq 135377) or (ip.src.asnum eq 136557) or (ip.src.asnum eq 150436) or (ip.src.asnum eq 152179) or (ip.src.asnum eq 154395) or (ip.src.asnum eq 197540) or (ip.src.asnum eq 199081) or (ip.src.asnum eq 199218) or (ip.src.asnum eq 200373) or (ip.src.asnum eq 201207) or (ip.src.asnum eq 201341) or (ip.src.asnum eq 202015) or (ip.src.asnum eq 202914) or (ip.src.asnum eq 203020) or (ip.src.asnum eq 203061) or (ip.src.asnum eq 204287) or (ip.src.asnum eq 204646) or (ip.src.asnum eq 205659) or (ip.src.asnum eq 207990) or (ip.src.asnum eq 208137) or (ip.src.asnum eq 209709) or (ip.src.asnum eq 211680) or (ip.src.asnum eq 212238) or (ip.src.asnum eq 214669) or (ip.src.asnum eq 215930) or (ip.src.asnum eq 218785) or (ip.src.asnum eq 263735) or (ip.src.asnum eq 263829) or (ip.src.asnum eq 393886) or (ip.src.asnum eq 394380) or (ip.src.asnum eq 394474) or (ip.src.asnum eq 395954) or (ip.src.asnum eq 396190) or (ip.src.asnum eq 396319) or (ip.src.asnum eq 396356) or (ip.src.asnum eq 398781) or (ip.src.asnum eq 400529) or (ip.src.asnum eq 400810) or (ip.src.asnum eq 401152) or (ip.src.asnum eq 401560)
 ```
 
 ## Listado
@@ -38,6 +38,8 @@ Acción recomendada: **Block**. Mantén aparte un `skip` para pasarelas de pago 
 | 7979 | Servers.com | US | **high** | Hosting; patrón spray. |
 | 9009 | M247 Europe | RO | **high** | VPN/hosting; mucho spray (muchas IPs con 1–2 req). |
 | 14061 | DigitalOcean | US | **high** | VPS grande; abuso observado; posible falso positivo en automatismos legítimos. |
+| 21769 | Colocation America | US | **high** | Hosting; patrón spray. |
+| 26658 | Hengtong IDC | US | **high** | Hosting; patrón spray. |
 | 30058 | FDCServers | US | **high** | Spray claro (decenas de IPs a 1–2 req). |
 | 36352 | HostPapa / ColoCrossing | US | **high** | Spray en 23.95.163.0/24 y 198.46.220.0/24. |
 | 40676 | Psychz Networks | US | **high** | Hosting frecuentemente abusado. |
@@ -45,13 +47,17 @@ Acción recomendada: **Block**. Mantén aparte un `skip` para pasarelas de pago 
 | 47007 | Colocation America | US | **high** | Hosting; patrón spray. |
 | 48090 | DMZHOST / TECHOFF SRV | GB | **high** | Hosting; patrón agresivo multi-IP. |
 | 55470 | Cyfuture India | IN | **high** | Hosting; patrón spray. |
+| 64286 | LogicWeb | US | **high** | Hosting; patrón spray. |
 | 64445 | NetJoin | IT | **high** | Hosting; patrón spray. |
+| 133944 | Trafficforce | LT | **high** | Hosting; patrón spray multi-IP. |
 | 134450 | HostRoyale AP | IN | **high** | Hosting; asociado a HostRoyale. |
 | 135377 | UCLOUD | HK | **high** | Hosting; tráfico agresivo concentrado en pocas IPs. |
 | 150436 | Byteplus | SG | **high** | Cloud/hosting; patrón spray. |
+| 152179 | Global Communication Network | HK | **high** | Hosting; patrón spray. |
 | 154395 | Rackdog LLC | US | **high** | Hosting; patrón spray. |
 | 197540 | netcup GmbH | DE | **high** | VPS grande; abuso observado; posible falso positivo en automatismos legítimos. |
 | 200373 | 3xK Tech GmbH | DE | **high** | Más agresivo observado: ~11k req desde 1–2 IPs. |
+| 201207 | Getechbrothers | LT | **high** | Hosting LT; patrón spray. |
 | 201341 | trafficforce / Centurion | LT | **high** | Hosting; patrón spray multi-IP. |
 | 203020 | HostRoyale Technologies | IN | **high** | Mucho spray multi-prefijo. |
 | 204287 | HostRoyale Technologies | IN | **high** | Hosting; asociado a HostRoyale. |
@@ -63,24 +69,33 @@ Acción recomendada: **Block**. Mantén aparte un `skip` para pasarelas de pago 
 | 215930 | Cipher Operations | RS | **high** | Hosting; tráfico agresivo concentrado en pocas IPs. |
 | 218785 | TC Datacenter | HK | **high** | Hosting; tráfico agresivo concentrado en pocas IPs. |
 | 396190 | Leaseweb USA (Seattle) | US | **high** | Spray en 152.163.4.0/22 y 152.163.216.0/22. |
+| 396319 | Oxylabs | US | **high** | Proxy/residencial; scrapers. |
 | 396356 | Latitude.sh | US | **high** | Hosting; patrón spray. |
 | 398781 | Oculus Networks | US | **high** | Hosting; patrón spray. |
+| 400810 | BreezeHost | US | **high** | Hosting; patrón spray. |
 | 6424 | EDGOO Networks | PT | **medium** | Hosting y redes; asociado a abuso y scrapers. |
+| 7203 | Leaseweb USA (San Francisco) | US | **medium** | Familia Leaseweb USA. |
 | 11798 | Ace Data Centers | US | **medium** | Datacenter US; spray en varios prefijos. |
 | 13213 | THG Hosting / UK2 | GB | **medium** | Hosting UK. |
+| 14956 | RouterHosting | US | **medium** | Hosting; volumen moderado. |
 | 16141 | Net Bull / Nethouse | IT | **medium** | Hosting; volumen moderado. |
 | 18779 | EGIHosting | US | **medium** | Hosting US. |
+| 19148 | Leaseweb USA (Phoenix) | US | **medium** | Familia Leaseweb USA. |
 | 20454 | Secured Servers LLC | US | **medium** | Hosting; volumen moderado. |
 | 20473 | Vultr (Constant Company) | US | **medium** | VPS popular; abuso frecuente de scrapers. |
 | 23033 | Wowrack.com | US | **medium** | Hosting; volumen moderado desde pocas IPs. |
 | 24961 | myLoc / WIIT AG | DE | **medium** | Hosting; volumen moderado. |
+| 27411 | Leaseweb USA (Chicago) | US | **medium** | Familia Leaseweb USA. |
 | 38186 | Forewin Telecom Group | HK | **medium** | Hosting; volumen moderado. |
 | 39855 | Mod Mission Critical | NL | **medium** | Hosting; volumen moderado multi-IP. |
 | 43180 | Trunk Networks | SC | **medium** | Volumen bajo; patrón spray en prefijos compartidos. |
 | 50077 | SYN LTD | GB | **medium** | Hosting. |
 | 53850 | GorillaServers | US | **medium** | Hosting; volumen moderado. |
+| 53856 | NJ IX | US | **medium** | Hosting/IX; volumen moderado. |
+| 54903 | globalroutesolutions | US | **medium** | Hosting; volumen moderado. |
 | 56887 | SC TECHNOLOGICAL SRL | RO | **medium** | Hosting; volumen moderado. |
 | 62874 | Web2Objects | US | **medium** | Hosting; volumen moderado. |
+| 64249 | Endoffice | US | **medium** | Hosting; volumen moderado. |
 | 132817 | DZCRD Networks | BD | **medium** | Redes APAC; hosting/transitación dudosa. |
 | 133296 | Web Werks India | IN | **medium** | Hosting; volumen moderado. |
 | 133499 | HostRoyale AP | IN | **medium** | Hosting; asociado a HostRoyale. |
@@ -92,9 +107,13 @@ Acción recomendada: **Block**. Mantén aparte un `skip` para pasarelas de pago 
 | 203061 | UAB code200 | LT | **medium** | Hosting LT. |
 | 204646 | web2objects (customer) | US | **medium** | Hosting; asociado a Web2Objects. |
 | 205659 | UAB code200 (ISP2) | LT | **medium** | Hosting LT (mismo grupo code200). |
+| 211680 | BitSight / NSEC | PT | **medium** | Escáner de reputación; tráfico de probes. |
+| 263735 | Buena Hosting | HN | **medium** | Hosting; volumen moderado. |
+| 263829 | Host Para Tu Vida | HN | **medium** | Hosting; volumen moderado. |
 | 393886 | Leaseweb USA (Miami) | US | **medium** | Familia Leaseweb USA; spray bajo. |
 | 394380 | Leaseweb USA (Dallas) | US | **medium** | Familia Leaseweb USA. |
 | 394474 | WhiteLabelColo | US | **medium** | Spray en 167.250.108.0/22. |
+| 395954 | Leaseweb USA (Los Angeles) | US | **medium** | Familia Leaseweb USA. |
 | 400529 | Infraly LLC | US | **medium** | Hosting; volumen moderado. |
 | 401152 | Ace Data Centers II | US | **medium** | Spray en 108.165.172.0/24. |
 | 401560 | OneCable Network | US | **medium** | Hosting/proxy; volumen alto multi-IP. |
