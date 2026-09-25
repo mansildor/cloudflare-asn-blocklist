@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -84,6 +84,20 @@
       "country": "IT",
       "severity": "medium",
       "notes": "Hosting; volumen moderado."
+    },
+    {
+      "asn": 17252,
+      "name": "Colocation America (AS2)",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; familia Colocation America."
+    },
+    {
+      "asn": 17497,
+      "name": "Liasail Global Hongkong",
+      "country": "HK",
+      "severity": "medium",
+      "notes": "Hosting; fetch de imágenes / abuso moderado."
     },
     {
       "asn": 18779,
@@ -252,6 +266,13 @@
       "country": "RO",
       "severity": "medium",
       "notes": "Hosting; volumen moderado."
+    },
+    {
+      "asn": 62240,
+      "name": "Clouvider Limited",
+      "country": "GB",
+      "severity": "high",
+      "notes": "Hosting; scraping/abuso observado."
     },
     {
       "asn": 62874,
@@ -443,6 +464,13 @@
       "notes": "Hosting LT (mismo grupo code200)."
     },
     {
+      "asn": 207043,
+      "name": "Dedik Services",
+      "country": "GB",
+      "severity": "high",
+      "notes": "Hosting; tráfico agresivo concentrado en pocas IPs."
+    },
+    {
       "asn": 207990,
       "name": "HostRoyale (customer)",
       "country": "IN",
@@ -455,6 +483,13 @@
       "country": "RO",
       "severity": "high",
       "notes": "Hosting; tráfico agresivo concentrado en pocas IPs."
+    },
+    {
+      "asn": 209372,
+      "name": "WS Telecom customers",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Clientes WS Telecom; hosting/proxy."
     },
     {
       "asn": 209709,
@@ -476,6 +511,13 @@
       "country": "GB",
       "severity": "high",
       "notes": "Proxy/CDN abusado; mucho spray."
+    },
+    {
+      "asn": 213541,
+      "name": "WS Telecom Inc",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Salida VPN/proxy; patrón multi-IP (posible falso positivo)."
     },
     {
       "asn": 214669,
