@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-25",
+  "updated": "2026-09-28",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -352,6 +352,20 @@
       "notes": "Hosting; volumen moderado."
     },
     {
+      "asn": 136787,
+      "name": "PacketHub S.A.",
+      "country": "PA",
+      "severity": "medium",
+      "notes": "VPN/proxy hosting; volumen alto en pocas IPs."
+    },
+    {
+      "asn": 142430,
+      "name": "DIGI VPS",
+      "country": "IN",
+      "severity": "high",
+      "notes": "Hosting; tráfico agresivo concentrado en pocas IPs."
+    },
+    {
       "asn": 150436,
       "name": "Byteplus",
       "country": "SG",
@@ -371,6 +385,13 @@
       "country": "US",
       "severity": "high",
       "notes": "Hosting; patrón spray."
+    },
+    {
+      "asn": 197170,
+      "name": "TechTies Inc.",
+      "country": "SC",
+      "severity": "medium",
+      "notes": "Hosting; tráfico concentrado en pocas IPs."
     },
     {
       "asn": 197540,
