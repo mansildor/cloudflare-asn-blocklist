@@ -22,6 +22,8 @@ asn,name,country,severity
 26658,Hengtong IDC,US,high
 27411,Leaseweb USA (Chicago),US,medium
 30058,FDCServers,US,high
+33322,NDCHOST (Network Data Center Host),US,medium
+33387,"Nocix, LLC",US,medium
 36352,HostPapa / ColoCrossing,US,high
 38186,Forewin Telecom Group,HK,medium
 39855,Mod Mission Critical,NL,medium

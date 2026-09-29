@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -168,6 +168,20 @@
       "country": "US",
       "severity": "high",
       "notes": "Spray claro (decenas de IPs a 1–2 req)."
+    },
+    {
+      "asn": 33322,
+      "name": "NDCHOST (Network Data Center Host)",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; escaneo WordPress (/xmlrpc.php, /wp-login.php, /wp-admin/)."
+    },
+    {
+      "asn": 33387,
+      "name": "Nocix, LLC",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; UA falso Googlebot; scrape de imágenes de producto."
     },
     {
       "asn": 36352,
