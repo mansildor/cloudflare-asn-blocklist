@@ -25,6 +25,7 @@ asn,name,country,severity
 33322,NDCHOST (Network Data Center Host),US,medium
 33387,"Nocix, LLC",US,medium
 36352,HostPapa / ColoCrossing,US,high
+36680,Netiface LLC,US,medium
 38186,Forewin Telecom Group,HK,medium
 39855,Mod Mission Critical,NL,medium
 40676,Psychz Networks,US,high
@@ -33,9 +34,11 @@ asn,name,country,severity
 47007,Colocation America,US,high
 48090,DMZHOST / TECHOFF SRV,GB,high
 50077,SYN LTD,GB,medium
+51167,Contabo GmbH,DE,medium
 53850,GorillaServers,US,medium
 53856,NJ IX,US,medium
 54903,globalroutesolutions,US,medium
+55286,SERVER-MANIA,CA,medium
 55470,Cyfuture India,IN,high
 56887,SC TECHNOLOGICAL SRL,RO,medium
 62240,Clouvider Limited,GB,high
@@ -72,6 +75,7 @@ asn,name,country,severity
 207043,Dedik Services,GB,high
 207990,HostRoyale (customer),IN,high
 208137,Feo Prest SRL (FPS12),RO,high
+209341,WHG Hosting Services,GB,medium
 209372,WS Telecom customers,US,medium
 209709,code200 ISP1,LT,high
 211680,BitSight / NSEC,PT,medium

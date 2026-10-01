@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-29",
+  "updated": "2026-10-01",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -191,6 +191,13 @@
       "notes": "Spray en 23.95.163.0/24 y 198.46.220.0/24."
     },
     {
+      "asn": 36680,
+      "name": "Netiface LLC",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting/VPN; caza de secretos (/.env, /config.json)."
+    },
+    {
       "asn": 38186,
       "name": "Forewin Telecom Group",
       "country": "HK",
@@ -247,6 +254,13 @@
       "notes": "Hosting."
     },
     {
+      "asn": 51167,
+      "name": "Contabo GmbH",
+      "country": "DE",
+      "severity": "medium",
+      "notes": "VPS grande; scrape de imágenes de producto; posible falso positivo."
+    },
+    {
       "asn": 53850,
       "name": "GorillaServers",
       "country": "US",
@@ -266,6 +280,13 @@
       "country": "US",
       "severity": "medium",
       "notes": "Hosting; volumen moderado."
+    },
+    {
+      "asn": 55286,
+      "name": "SERVER-MANIA",
+      "country": "CA",
+      "severity": "medium",
+      "notes": "Hosting; granja de bots distribuida (muchas IPs)."
     },
     {
       "asn": 55470,
@@ -518,6 +539,13 @@
       "country": "RO",
       "severity": "high",
       "notes": "Hosting; tráfico agresivo concentrado en pocas IPs."
+    },
+    {
+      "asn": 209341,
+      "name": "WHG Hosting Services",
+      "country": "GB",
+      "severity": "medium",
+      "notes": "Hosting; escaneo WordPress (/xmlrpc.php, /wp-login.php)."
     },
     {
       "asn": 209372,
