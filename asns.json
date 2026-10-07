@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-01",
+  "updated": "2026-10-07",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -14,6 +14,13 @@
       "country": "US",
       "severity": "low",
       "notes": "Backbone/tránsito. Volumen bajo en sitios ES; bloqueo por ruido internacional."
+    },
+    {
+      "asn": 5065,
+      "name": "Bunny Communications",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting/proxy; abuso moderado (propuesta 2026-10-07)."
     },
     {
       "asn": 6424,
@@ -63,6 +70,13 @@
       "country": "GB",
       "severity": "medium",
       "notes": "Hosting UK."
+    },
+    {
+      "asn": 13332,
+      "name": "Hype Enterprises",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting/proxy; abuso moderado (propuesta 2026-10-07)."
     },
     {
       "asn": 14061,
@@ -184,6 +198,13 @@
       "notes": "Hosting; UA falso Googlebot; scrape de imágenes de producto."
     },
     {
+      "asn": 36007,
+      "name": "Kamatera, Inc.",
+      "country": "US",
+      "severity": "medium",
+      "notes": "VPS; abuso moderado (propuesta 2026-10-07)."
+    },
+    {
       "asn": 36352,
       "name": "HostPapa / ColoCrossing",
       "country": "US",
@@ -203,6 +224,13 @@
       "country": "HK",
       "severity": "medium",
       "notes": "Hosting; volumen moderado."
+    },
+    {
+      "asn": 39600,
+      "name": "BUNNY TECHNOLOGY LLC",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting/proxy; abuso moderado (propuesta 2026-10-07)."
     },
     {
       "asn": 39855,
@@ -231,6 +259,13 @@
       "country": "US",
       "severity": "high",
       "notes": "Hosting; spray claro multi-IP."
+    },
+    {
+      "asn": 46635,
+      "name": "Contact Consumers (NET3-AI)",
+      "country": "US",
+      "severity": "high",
+      "notes": "Hosting; patrón agresivo (propuesta 2026-10-07)."
     },
     {
       "asn": 47007,
@@ -338,6 +373,13 @@
       "notes": "Hosting; patrón spray."
     },
     {
+      "asn": 132203,
+      "name": "Tencent Cloud (TENCENT-NET-AP-CN)",
+      "country": "CN",
+      "severity": "high",
+      "notes": "Cloud/hosting; patrón agresivo (propuesta 2026-10-07)."
+    },
+    {
       "asn": 132817,
       "name": "DZCRD Networks",
       "country": "BD",
@@ -394,11 +436,25 @@
       "notes": "VPN/proxy hosting; volumen alto en pocas IPs."
     },
     {
+      "asn": 137409,
+      "name": "GSL Networks Pty LTD",
+      "country": "AU",
+      "severity": "medium",
+      "notes": "Hosting/VPN; abuso moderado (propuesta 2026-10-07)."
+    },
+    {
       "asn": 142430,
       "name": "DIGI VPS",
       "country": "IN",
       "severity": "high",
       "notes": "Hosting; tráfico agresivo concentrado en pocas IPs."
+    },
+    {
+      "asn": 142622,
+      "name": "Dream Information Laboratory",
+      "country": "JP",
+      "severity": "medium",
+      "notes": "Hosting; abuso moderado (propuesta 2026-10-07)."
     },
     {
       "asn": 150436,
@@ -513,6 +569,13 @@
       "notes": "Hosting; asociado a Web2Objects."
     },
     {
+      "asn": 205397,
+      "name": "69HOST LLC",
+      "country": "US",
+      "severity": "high",
+      "notes": "Hosting; patrón agresivo (propuesta 2026-10-07)."
+    },
+    {
       "asn": 205659,
       "name": "UAB code200 (ISP2)",
       "country": "LT",
@@ -560,6 +623,13 @@
       "country": "LT",
       "severity": "high",
       "notes": "Hosting LT; asociado a grupo code200."
+    },
+    {
+      "asn": 210906,
+      "name": "UAB Bite Lietuva (BITE-US)",
+      "country": "LT",
+      "severity": "medium",
+      "notes": "Hosting/proxy; abuso moderado (propuesta 2026-10-07)."
     },
     {
       "asn": 211680,
@@ -611,6 +681,13 @@
       "notes": "Hosting; volumen moderado."
     },
     {
+      "asn": 263740,
+      "name": "Corporacion Laceibanetsociety",
+      "country": "HN",
+      "severity": "medium",
+      "notes": "Hosting; abuso moderado (propuesta 2026-10-07)."
+    },
+    {
       "asn": 263829,
       "name": "Host Para Tu Vida",
       "country": "HN",
@@ -637,6 +714,13 @@
       "country": "US",
       "severity": "medium",
       "notes": "Spray en 167.250.108.0/22."
+    },
+    {
+      "asn": 395092,
+      "name": "Shock Hosting LLC",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; abuso moderado (propuesta 2026-10-07)."
     },
     {
       "asn": 395954,
@@ -667,11 +751,25 @@
       "notes": "Hosting; patrón spray."
     },
     {
+      "asn": 397423,
+      "name": "Tier.Net Technologies LLC",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; abuso moderado (propuesta 2026-10-07)."
+    },
+    {
       "asn": 398781,
       "name": "Oculus Networks",
       "country": "US",
       "severity": "high",
       "notes": "Hosting; patrón spray."
+    },
+    {
+      "asn": 399073,
+      "name": "BUNNY TECHNOLOGY LLC (TBB-ASN)",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting/proxy; abuso moderado (propuesta 2026-10-07)."
     },
     {
       "asn": 400529,
