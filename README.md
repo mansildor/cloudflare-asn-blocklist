@@ -28,7 +28,7 @@ curl -fsSL https://raw.githubusercontent.com/mansildor/cloudflare-asn-blocklist/
 Acción recomendada: **Block**. Mantén aparte un `skip` para pasarelas de pago si aplica (p.ej. Redsys ASN 31627).
 
 ```
-(ip.src.asnum eq 174) or (ip.src.asnum eq 5065) or (ip.src.asnum eq 6424) or (ip.src.asnum eq 6830) or (ip.src.asnum eq 7203) or (ip.src.asnum eq 7979) or (ip.src.asnum eq 9009) or (ip.src.asnum eq 11798) or (ip.src.asnum eq 13213) or (ip.src.asnum eq 13332) or (ip.src.asnum eq 14061) or (ip.src.asnum eq 14956) or (ip.src.asnum eq 16141) or (ip.src.asnum eq 17252) or (ip.src.asnum eq 17497) or (ip.src.asnum eq 18779) or (ip.src.asnum eq 19148) or (ip.src.asnum eq 20454) or (ip.src.asnum eq 20473) or (ip.src.asnum eq 21769) or (ip.src.asnum eq 23033) or (ip.src.asnum eq 24961) or (ip.src.asnum eq 26658) or (ip.src.asnum eq 27411) or (ip.src.asnum eq 30058) or (ip.src.asnum eq 33322) or (ip.src.asnum eq 33387) or (ip.src.asnum eq 36007) or (ip.src.asnum eq 36352) or (ip.src.asnum eq 36680) or (ip.src.asnum eq 38186) or (ip.src.asnum eq 39600) or (ip.src.asnum eq 39855) or (ip.src.asnum eq 40676) or (ip.src.asnum eq 43180) or (ip.src.asnum eq 46261) or (ip.src.asnum eq 46635) or (ip.src.asnum eq 47007) or (ip.src.asnum eq 48090) or (ip.src.asnum eq 50077) or (ip.src.asnum eq 51167) or (ip.src.asnum eq 53850) or (ip.src.asnum eq 53856) or (ip.src.asnum eq 54903) or (ip.src.asnum eq 55286) or (ip.src.asnum eq 55470) or (ip.src.asnum eq 56887) or (ip.src.asnum eq 62240) or (ip.src.asnum eq 62874) or (ip.src.asnum eq 64249) or (ip.src.asnum eq 64286) or (ip.src.asnum eq 64445) or (ip.src.asnum eq 132203) or (ip.src.asnum eq 132817) or (ip.src.asnum eq 133296) or (ip.src.asnum eq 133499) or (ip.src.asnum eq 133944) or (ip.src.asnum eq 134450) or (ip.src.asnum eq 135377) or (ip.src.asnum eq 136557) or (ip.src.asnum eq 136787) or (ip.src.asnum eq 137409) or (ip.src.asnum eq 142430) or (ip.src.asnum eq 142622) or (ip.src.asnum eq 150436) or (ip.src.asnum eq 152179) or (ip.src.asnum eq 154395) or (ip.src.asnum eq 197170) or (ip.src.asnum eq 197540) or (ip.src.asnum eq 199081) or (ip.src.asnum eq 199218) or (ip.src.asnum eq 200373) or (ip.src.asnum eq 201207) or (ip.src.asnum eq 201341) or (ip.src.asnum eq 202015) or (ip.src.asnum eq 202914) or (ip.src.asnum eq 203020) or (ip.src.asnum eq 203061) or (ip.src.asnum eq 204287) or (ip.src.asnum eq 204646) or (ip.src.asnum eq 205397) or (ip.src.asnum eq 205659) or (ip.src.asnum eq 207043) or (ip.src.asnum eq 207990) or (ip.src.asnum eq 208137) or (ip.src.asnum eq 209341) or (ip.src.asnum eq 209372) or (ip.src.asnum eq 209709) or (ip.src.asnum eq 210906) or (ip.src.asnum eq 211680) or (ip.src.asnum eq 212238) or (ip.src.asnum eq 213541) or (ip.src.asnum eq 214669) or (ip.src.asnum eq 215930) or (ip.src.asnum eq 218785) or (ip.src.asnum eq 263735) or (ip.src.asnum eq 263740) or (ip.src.asnum eq 263829) or (ip.src.asnum eq 393886) or (ip.src.asnum eq 394380) or (ip.src.asnum eq 394474) or (ip.src.asnum eq 395092) or (ip.src.asnum eq 395954) or (ip.src.asnum eq 396190) or (ip.src.asnum eq 396319) or (ip.src.asnum eq 396356) or (ip.src.asnum eq 397423) or (ip.src.asnum eq 398781) or (ip.src.asnum eq 399073) or (ip.src.asnum eq 400529) or (ip.src.asnum eq 400810) or (ip.src.asnum eq 401152) or (ip.src.asnum eq 401560)
+(ip.src.asnum eq 174) or (ip.src.asnum eq 1004) or (ip.src.asnum eq 5065) or (ip.src.asnum eq 6424) or (ip.src.asnum eq 6830) or (ip.src.asnum eq 7203) or (ip.src.asnum eq 7979) or (ip.src.asnum eq 9009) or (ip.src.asnum eq 11798) or (ip.src.asnum eq 13213) or (ip.src.asnum eq 13332) or (ip.src.asnum eq 14061) or (ip.src.asnum eq 14956) or (ip.src.asnum eq 16141) or (ip.src.asnum eq 17252) or (ip.src.asnum eq 17497) or (ip.src.asnum eq 18779) or (ip.src.asnum eq 19148) or (ip.src.asnum eq 20454) or (ip.src.asnum eq 20473) or (ip.src.asnum eq 21769) or (ip.src.asnum eq 22295) or (ip.src.asnum eq 22363) or (ip.src.asnum eq 23033) or (ip.src.asnum eq 24961) or (ip.src.asnum eq 26658) or (ip.src.asnum eq 27411) or (ip.src.asnum eq 30058) or (ip.src.asnum eq 33322) or (ip.src.asnum eq 33387) or (ip.src.asnum eq 36007) or (ip.src.asnum eq 36352) or (ip.src.asnum eq 36680) or (ip.src.asnum eq 38186) or (ip.src.asnum eq 39600) or (ip.src.asnum eq 39855) or (ip.src.asnum eq 40021) or (ip.src.asnum eq 40676) or (ip.src.asnum eq 43180) or (ip.src.asnum eq 46261) or (ip.src.asnum eq 46635) or (ip.src.asnum eq 47007) or (ip.src.asnum eq 48090) or (ip.src.asnum eq 50077) or (ip.src.asnum eq 51167) or (ip.src.asnum eq 53514) or (ip.src.asnum eq 53667) or (ip.src.asnum eq 53850) or (ip.src.asnum eq 53856) or (ip.src.asnum eq 54903) or (ip.src.asnum eq 55286) or (ip.src.asnum eq 55470) or (ip.src.asnum eq 56887) or (ip.src.asnum eq 62240) or (ip.src.asnum eq 62874) or (ip.src.asnum eq 63023) or (ip.src.asnum eq 64249) or (ip.src.asnum eq 64286) or (ip.src.asnum eq 64445) or (ip.src.asnum eq 132203) or (ip.src.asnum eq 132817) or (ip.src.asnum eq 133296) or (ip.src.asnum eq 133499) or (ip.src.asnum eq 133944) or (ip.src.asnum eq 134450) or (ip.src.asnum eq 135377) or (ip.src.asnum eq 136557) or (ip.src.asnum eq 136787) or (ip.src.asnum eq 137409) or (ip.src.asnum eq 142430) or (ip.src.asnum eq 142622) or (ip.src.asnum eq 150436) or (ip.src.asnum eq 152179) or (ip.src.asnum eq 154395) or (ip.src.asnum eq 197170) or (ip.src.asnum eq 197540) or (ip.src.asnum eq 199081) or (ip.src.asnum eq 199218) or (ip.src.asnum eq 200373) or (ip.src.asnum eq 201207) or (ip.src.asnum eq 201341) or (ip.src.asnum eq 202015) or (ip.src.asnum eq 202412) or (ip.src.asnum eq 202914) or (ip.src.asnum eq 203020) or (ip.src.asnum eq 203061) or (ip.src.asnum eq 204287) or (ip.src.asnum eq 204646) or (ip.src.asnum eq 205397) or (ip.src.asnum eq 205659) or (ip.src.asnum eq 207043) or (ip.src.asnum eq 207990) or (ip.src.asnum eq 208137) or (ip.src.asnum eq 209341) or (ip.src.asnum eq 209372) or (ip.src.asnum eq 209709) or (ip.src.asnum eq 210906) or (ip.src.asnum eq 211680) or (ip.src.asnum eq 212238) or (ip.src.asnum eq 213541) or (ip.src.asnum eq 214669) or (ip.src.asnum eq 215930) or (ip.src.asnum eq 218785) or (ip.src.asnum eq 263735) or (ip.src.asnum eq 263740) or (ip.src.asnum eq 263829) or (ip.src.asnum eq 393886) or (ip.src.asnum eq 394380) or (ip.src.asnum eq 394474) or (ip.src.asnum eq 395092) or (ip.src.asnum eq 395954) or (ip.src.asnum eq 396190) or (ip.src.asnum eq 396319) or (ip.src.asnum eq 396356) or (ip.src.asnum eq 397423) or (ip.src.asnum eq 398781) or (ip.src.asnum eq 399073) or (ip.src.asnum eq 400529) or (ip.src.asnum eq 400810) or (ip.src.asnum eq 401152) or (ip.src.asnum eq 401560) or (ip.src.asnum eq 403005)
 ```
 
 ## Listado
@@ -47,8 +47,10 @@ Acción recomendada: **Block**. Mantén aparte un `skip` para pasarelas de pago 
 | 46635 | Contact Consumers (NET3-AI) | US | **high** | Hosting; patrón agresivo (propuesta 2026-10-07). |
 | 47007 | Colocation America | US | **high** | Hosting; patrón spray. |
 | 48090 | DMZHOST / TECHOFF SRV | GB | **high** | Hosting; patrón agresivo multi-IP. |
+| 53667 | FranTech Solutions (PONYNET) | US | **high** | Hosting/VPN (BuyVM); patrón agresivo (propuesta 2026-10-12/13). |
 | 55470 | Cyfuture India | IN | **high** | Hosting; patrón spray. |
 | 62240 | Clouvider Limited | GB | **high** | Hosting; scraping/abuso observado. |
+| 63023 | GTHost / GLOBALTELEHOST | US | **high** | Hosting; patrón agresivo (propuesta 2026-10-12/13). |
 | 64286 | LogicWeb | US | **high** | Hosting; patrón spray. |
 | 64445 | NetJoin | IT | **high** | Hosting; patrón spray. |
 | 132203 | Tencent Cloud (TENCENT-NET-AP-CN) | CN | **high** | Cloud/hosting; patrón agresivo (propuesta 2026-10-07). |
@@ -63,6 +65,7 @@ Acción recomendada: **Block**. Mantén aparte un `skip` para pasarelas de pago 
 | 200373 | 3xK Tech GmbH | DE | **high** | Más agresivo observado: ~11k req desde 1–2 IPs. |
 | 201207 | Getechbrothers | LT | **high** | Hosting LT; patrón spray. |
 | 201341 | trafficforce / Centurion | LT | **high** | Hosting; patrón spray multi-IP. |
+| 202412 | Omegatech LTD | SC | **high** | Hosting; patrón agresivo (propuesta 2026-10-12/13). |
 | 203020 | HostRoyale Technologies | IN | **high** | Mucho spray multi-prefijo. |
 | 204287 | HostRoyale Technologies | IN | **high** | Hosting; asociado a HostRoyale. |
 | 205397 | 69HOST LLC | US | **high** | Hosting; patrón agresivo (propuesta 2026-10-07). |
@@ -79,6 +82,8 @@ Acción recomendada: **Block**. Mantén aparte un `skip` para pasarelas de pago 
 | 396356 | Latitude.sh | US | **high** | Hosting; patrón spray. |
 | 398781 | Oculus Networks | US | **high** | Hosting; patrón spray. |
 | 400810 | BreezeHost | US | **high** | Hosting; patrón spray. |
+| 403005 | Blatant Technologies, LLC | SC | **high** | Hosting; patrón agresivo (propuesta 2026-10-12/13). |
+| 1004 | Ambyre LLC | US | **medium** | Hosting/VPS; abuso moderado (propuesta 2026-10-12/13). |
 | 5065 | Bunny Communications | US | **medium** | Hosting/proxy; abuso moderado (propuesta 2026-10-07). |
 | 6424 | EDGOO Networks | PT | **medium** | Hosting y redes; asociado a abuso y scrapers. |
 | 7203 | Leaseweb USA (San Francisco) | US | **medium** | Familia Leaseweb USA. |
@@ -93,6 +98,8 @@ Acción recomendada: **Block**. Mantén aparte un `skip` para pasarelas de pago 
 | 19148 | Leaseweb USA (Phoenix) | US | **medium** | Familia Leaseweb USA. |
 | 20454 | Secured Servers LLC | US | **medium** | Hosting; volumen moderado. |
 | 20473 | Vultr (Constant Company) | US | **medium** | VPS popular; abuso frecuente de scrapers. |
+| 22295 | Advin Services LLC | US | **medium** | Hosting; abuso moderado (propuesta 2026-10-12/13). |
+| 22363 | Powerhouse Management (PHMGMT-AS1) | US | **medium** | Hosting/Usenet egress; abuso moderado (propuesta 2026-10-12/13). |
 | 23033 | Wowrack.com | US | **medium** | Hosting; volumen moderado desde pocas IPs. |
 | 24961 | myLoc / WIIT AG | DE | **medium** | Hosting; volumen moderado. |
 | 27411 | Leaseweb USA (Chicago) | US | **medium** | Familia Leaseweb USA. |
@@ -103,9 +110,11 @@ Acción recomendada: **Block**. Mantén aparte un `skip` para pasarelas de pago 
 | 38186 | Forewin Telecom Group | HK | **medium** | Hosting; volumen moderado. |
 | 39600 | BUNNY TECHNOLOGY LLC | US | **medium** | Hosting/proxy; abuso moderado (propuesta 2026-10-07). |
 | 39855 | Mod Mission Critical | NL | **medium** | Hosting; volumen moderado multi-IP. |
+| 40021 | Contabo Inc. | US | **medium** | VPS Contabo US; abuso moderado (propuesta 2026-10-12/13). |
 | 43180 | Trunk Networks | SC | **medium** | Volumen bajo; patrón spray en prefijos compartidos. |
 | 50077 | SYN LTD | GB | **medium** | Hosting. |
 | 51167 | Contabo GmbH | DE | **medium** | VPS grande; scrape de imágenes de producto; posible falso positivo. |
+| 53514 | UHQ Services LLC | US | **medium** | Hosting; abuso moderado (propuesta 2026-10-12/13). |
 | 53850 | GorillaServers | US | **medium** | Hosting; volumen moderado. |
 | 53856 | NJ IX | US | **medium** | Hosting/IX; volumen moderado. |
 | 54903 | globalroutesolutions | US | **medium** | Hosting; volumen moderado. |

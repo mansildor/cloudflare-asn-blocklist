@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-07",
+  "updated": "2026-10-13",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -14,6 +14,13 @@
       "country": "US",
       "severity": "low",
       "notes": "Backbone/tránsito. Volumen bajo en sitios ES; bloqueo por ruido internacional."
+    },
+    {
+      "asn": 1004,
+      "name": "Ambyre LLC",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting/VPS; abuso moderado (propuesta 2026-10-12/13)."
     },
     {
       "asn": 5065,
@@ -149,6 +156,20 @@
       "notes": "Hosting; patrón spray."
     },
     {
+      "asn": 22295,
+      "name": "Advin Services LLC",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; abuso moderado (propuesta 2026-10-12/13)."
+    },
+    {
+      "asn": 22363,
+      "name": "Powerhouse Management (PHMGMT-AS1)",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting/Usenet egress; abuso moderado (propuesta 2026-10-12/13)."
+    },
+    {
       "asn": 23033,
       "name": "Wowrack.com",
       "country": "US",
@@ -240,6 +261,13 @@
       "notes": "Hosting; volumen moderado multi-IP."
     },
     {
+      "asn": 40021,
+      "name": "Contabo Inc.",
+      "country": "US",
+      "severity": "medium",
+      "notes": "VPS Contabo US; abuso moderado (propuesta 2026-10-12/13)."
+    },
+    {
       "asn": 40676,
       "name": "Psychz Networks",
       "country": "US",
@@ -296,6 +324,20 @@
       "notes": "VPS grande; scrape de imágenes de producto; posible falso positivo."
     },
     {
+      "asn": 53514,
+      "name": "UHQ Services LLC",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; abuso moderado (propuesta 2026-10-12/13)."
+    },
+    {
+      "asn": 53667,
+      "name": "FranTech Solutions (PONYNET)",
+      "country": "US",
+      "severity": "high",
+      "notes": "Hosting/VPN (BuyVM); patrón agresivo (propuesta 2026-10-12/13)."
+    },
+    {
       "asn": 53850,
       "name": "GorillaServers",
       "country": "US",
@@ -350,6 +392,13 @@
       "country": "US",
       "severity": "medium",
       "notes": "Hosting; volumen moderado."
+    },
+    {
+      "asn": 63023,
+      "name": "GTHost / GLOBALTELEHOST",
+      "country": "US",
+      "severity": "high",
+      "notes": "Hosting; patrón agresivo (propuesta 2026-10-12/13)."
     },
     {
       "asn": 64249,
@@ -532,6 +581,13 @@
       "country": "BG",
       "severity": "medium",
       "notes": "Hosting BG."
+    },
+    {
+      "asn": 202412,
+      "name": "Omegatech LTD",
+      "country": "SC",
+      "severity": "high",
+      "notes": "Hosting; patrón agresivo (propuesta 2026-10-12/13)."
     },
     {
       "asn": 202914,
@@ -798,6 +854,13 @@
       "country": "US",
       "severity": "medium",
       "notes": "Hosting/proxy; volumen alto multi-IP."
+    },
+    {
+      "asn": 403005,
+      "name": "Blatant Technologies, LLC",
+      "country": "SC",
+      "severity": "high",
+      "notes": "Hosting; patrón agresivo (propuesta 2026-10-12/13)."
     }
   ]
 }

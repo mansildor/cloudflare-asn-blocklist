@@ -1,5 +1,6 @@
 asn,name,country,severity
 174,Cogent Communications,US,low
+1004,Ambyre LLC,US,medium
 5065,Bunny Communications,US,medium
 6424,EDGOO Networks,PT,medium
 6830,Liberty Global Europe,NL,low
@@ -19,6 +20,8 @@ asn,name,country,severity
 20454,Secured Servers LLC,US,medium
 20473,Vultr (Constant Company),US,medium
 21769,Colocation America,US,high
+22295,Advin Services LLC,US,medium
+22363,Powerhouse Management (PHMGMT-AS1),US,medium
 23033,Wowrack.com,US,medium
 24961,myLoc / WIIT AG,DE,medium
 26658,Hengtong IDC,US,high
@@ -32,6 +35,7 @@ asn,name,country,severity
 38186,Forewin Telecom Group,HK,medium
 39600,BUNNY TECHNOLOGY LLC,US,medium
 39855,Mod Mission Critical,NL,medium
+40021,Contabo Inc.,US,medium
 40676,Psychz Networks,US,high
 43180,Trunk Networks,SC,medium
 46261,QuickPacket,US,high
@@ -40,6 +44,8 @@ asn,name,country,severity
 48090,DMZHOST / TECHOFF SRV,GB,high
 50077,SYN LTD,GB,medium
 51167,Contabo GmbH,DE,medium
+53514,UHQ Services LLC,US,medium
+53667,FranTech Solutions (PONYNET),US,high
 53850,GorillaServers,US,medium
 53856,NJ IX,US,medium
 54903,globalroutesolutions,US,medium
@@ -48,6 +54,7 @@ asn,name,country,severity
 56887,SC TECHNOLOGICAL SRL,RO,medium
 62240,Clouvider Limited,GB,high
 62874,Web2Objects,US,medium
+63023,GTHost / GLOBALTELEHOST,US,high
 64249,Endoffice,US,medium
 64286,LogicWeb,US,high
 64445,NetJoin,IT,high
@@ -74,6 +81,7 @@ asn,name,country,severity
 201207,Getechbrothers,LT,high
 201341,trafficforce / Centurion,LT,high
 202015,HZ Hosting,BG,medium
+202412,Omegatech LTD,SC,high
 202914,Adeo Datacenter,DK,medium
 203020,HostRoyale Technologies,IN,high
 203061,UAB code200,LT,medium
@@ -112,3 +120,4 @@ asn,name,country,severity
 400810,BreezeHost,US,high
 401152,Ace Data Centers II,US,medium
 401560,OneCable Network,US,medium
+403005,"Blatant Technologies, LLC",SC,high
