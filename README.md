@@ -117,8 +117,8 @@ Acción recomendada: **Block**. Mantén aparte un `skip` para pasarelas de pago 
 | 39855 | Mod Mission Critical | NL | **medium** | Hosting; volumen moderado multi-IP. |
 | 40021 | Contabo Inc. | US | **medium** | VPS Contabo US; abuso moderado (propuesta 2026-10-12/13). |
 | 43180 | Trunk Networks | SC | **medium** | Volumen bajo; patrón spray en prefijos compartidos. |
-| 50077 | SYN LTD | GB | **medium** | Hosting. |
 | 48324 | webgo GmbH | DE | **medium** | Hosting; xmlrpc path spray (propuesta 2026-10-14). |
+| 50077 | SYN LTD | GB | **medium** | Hosting. |
 | 51167 | Contabo GmbH | DE | **medium** | VPS grande; scrape de imágenes de producto; posible falso positivo. |
 | 53514 | UHQ Services LLC | US | **medium** | Hosting; abuso moderado (propuesta 2026-10-12/13). |
 | 53850 | GorillaServers | US | **medium** | Hosting; volumen moderado. |
