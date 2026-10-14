@@ -6,6 +6,7 @@ asn,name,country,severity
 6830,Liberty Global Europe,NL,low
 7203,Leaseweb USA (San Francisco),US,medium
 7979,Servers.com,US,high
+8560,IONOS SE,DE,medium
 9009,M247 Europe,RO,high
 11798,Ace Data Centers,US,medium
 13213,THG Hosting / UK2,GB,medium
@@ -14,6 +15,7 @@ asn,name,country,severity
 14956,RouterHosting,US,medium
 16141,Net Bull / Nethouse,IT,medium
 17252,Colocation America (AS2),US,medium
+17378,"TierPoint, LLC",US,medium
 17497,Liasail Global Hongkong,HK,medium
 18779,EGIHosting,US,medium
 19148,Leaseweb USA (Phoenix),US,medium
@@ -25,12 +27,14 @@ asn,name,country,severity
 23033,Wowrack.com,US,medium
 24961,myLoc / WIIT AG,DE,medium
 26658,Hengtong IDC,US,high
+26666,"Interserver, Inc",US,medium
 27411,Leaseweb USA (Chicago),US,medium
 30058,FDCServers,US,high
 33322,NDCHOST (Network Data Center Host),US,medium
 33387,"Nocix, LLC",US,medium
 36007,"Kamatera, Inc.",US,medium
 36352,HostPapa / ColoCrossing,US,high
+36454,WHG Hosting Services Ltd,US,medium
 36680,Netiface LLC,US,medium
 38186,Forewin Telecom Group,HK,medium
 39600,BUNNY TECHNOLOGY LLC,US,medium
@@ -42,6 +46,7 @@ asn,name,country,severity
 46635,Contact Consumers (NET3-AI),US,high
 47007,Colocation America,US,high
 48090,DMZHOST / TECHOFF SRV,GB,high
+48324,webgo GmbH,DE,medium
 50077,SYN LTD,GB,medium
 51167,Contabo GmbH,DE,medium
 53514,UHQ Services LLC,US,medium
@@ -89,6 +94,7 @@ asn,name,country,severity
 204646,web2objects (customer),US,medium
 205397,69HOST LLC,US,high
 205659,UAB code200 (ISP2),LT,medium
+206092,SECFIREWALLAS / F.N.S. HOLDINGS LIMITED,US,high
 207043,Dedik Services,GB,high
 207990,HostRoyale (customer),IN,high
 208137,Feo Prest SRL (FPS12),RO,high

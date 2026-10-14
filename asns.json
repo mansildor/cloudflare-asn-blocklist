@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -58,6 +58,13 @@
       "notes": "Hosting; patrón spray."
     },
     {
+      "asn": 8560,
+      "name": "IONOS SE",
+      "country": "DE",
+      "severity": "medium",
+      "notes": "Hosting EU grande; xmlrpc spray (propuesta 2026-10-14). Posible falso positivo."
+    },
+    {
       "asn": 9009,
       "name": "M247 Europe",
       "country": "RO",
@@ -112,6 +119,13 @@
       "country": "US",
       "severity": "medium",
       "notes": "Hosting; familia Colocation America."
+    },
+    {
+      "asn": 17378,
+      "name": "TierPoint, LLC",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; sondas plugins WP; abuso moderado (propuesta 2026-10-14)."
     },
     {
       "asn": 17497,
@@ -191,6 +205,13 @@
       "notes": "Hosting; patrón spray."
     },
     {
+      "asn": 26666,
+      "name": "Interserver, Inc",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; xmlrpc /pedido; abuso moderado (propuesta 2026-10-14)."
+    },
+    {
       "asn": 27411,
       "name": "Leaseweb USA (Chicago)",
       "country": "US",
@@ -231,6 +252,13 @@
       "country": "US",
       "severity": "high",
       "notes": "Spray en 23.95.163.0/24 y 198.46.220.0/24."
+    },
+    {
+      "asn": 36454,
+      "name": "WHG Hosting Services Ltd",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; xmlrpc path spray (propuesta 2026-10-14)."
     },
     {
       "asn": 36680,
@@ -308,6 +336,13 @@
       "country": "GB",
       "severity": "high",
       "notes": "Hosting; patrón agresivo multi-IP."
+    },
+    {
+      "asn": 48324,
+      "name": "webgo GmbH",
+      "country": "DE",
+      "severity": "medium",
+      "notes": "Hosting; xmlrpc path spray (propuesta 2026-10-14)."
     },
     {
       "asn": 50077,
@@ -637,6 +672,13 @@
       "country": "LT",
       "severity": "medium",
       "notes": "Hosting LT (mismo grupo code200)."
+    },
+    {
+      "asn": 206092,
+      "name": "SECFIREWALLAS / F.N.S. HOLDINGS LIMITED",
+      "country": "US",
+      "severity": "high",
+      "notes": "Hosting; spray WP webshell/plugins agresivo (propuesta 2026-10-14)."
     },
     {
       "asn": 207043,
