@@ -60,6 +60,7 @@ asn,name,country,severity
 62240,Clouvider Limited,GB,high
 62874,Web2Objects,US,medium
 63023,GTHost / GLOBALTELEHOST,US,high
+63949,Akamai Connected Cloud (Linode),US,medium
 64249,Endoffice,US,medium
 64286,LogicWeb,US,high
 64445,NetJoin,IT,high
@@ -82,6 +83,7 @@ asn,name,country,severity
 197540,netcup GmbH,DE,high
 199081,Lancom Ltd.,GR,medium
 199218,ProtonVPN-2 / Proton AG,CH,medium
+199457,SolidCore Hosting,DE,high
 200373,3xK Tech GmbH,DE,high
 201207,Getechbrothers,LT,high
 201341,trafficforce / Centurion,LT,high
