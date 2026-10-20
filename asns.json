@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-16",
+  "updated": "2026-10-20",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -14,13 +14,6 @@
       "country": "US",
       "severity": "low",
       "notes": "Backbone/tránsito. Volumen bajo en sitios ES; bloqueo por ruido internacional."
-    },
-    {
-      "asn": 1004,
-      "name": "Ambyre LLC",
-      "country": "US",
-      "severity": "medium",
-      "notes": "Hosting/VPS; abuso moderado (propuesta 2026-10-12/13)."
     },
     {
       "asn": 5065,
@@ -56,13 +49,6 @@
       "country": "US",
       "severity": "high",
       "notes": "Hosting; patrón spray."
-    },
-    {
-      "asn": 8560,
-      "name": "IONOS SE",
-      "country": "DE",
-      "severity": "medium",
-      "notes": "Hosting EU grande; xmlrpc spray (propuesta 2026-10-14). Posible falso positivo."
     },
     {
       "asn": 9009,
@@ -121,13 +107,6 @@
       "notes": "Hosting; familia Colocation America."
     },
     {
-      "asn": 17378,
-      "name": "TierPoint, LLC",
-      "country": "US",
-      "severity": "medium",
-      "notes": "Hosting; sondas plugins WP; abuso moderado (propuesta 2026-10-14)."
-    },
-    {
       "asn": 17497,
       "name": "Liasail Global Hongkong",
       "country": "HK",
@@ -170,20 +149,6 @@
       "notes": "Hosting; patrón spray."
     },
     {
-      "asn": 22295,
-      "name": "Advin Services LLC",
-      "country": "US",
-      "severity": "medium",
-      "notes": "Hosting; abuso moderado (propuesta 2026-10-12/13)."
-    },
-    {
-      "asn": 22363,
-      "name": "Powerhouse Management (PHMGMT-AS1)",
-      "country": "US",
-      "severity": "medium",
-      "notes": "Hosting/Usenet egress; abuso moderado (propuesta 2026-10-12/13)."
-    },
-    {
       "asn": 23033,
       "name": "Wowrack.com",
       "country": "US",
@@ -205,13 +170,6 @@
       "notes": "Hosting; patrón spray."
     },
     {
-      "asn": 26666,
-      "name": "Interserver, Inc",
-      "country": "US",
-      "severity": "medium",
-      "notes": "Hosting; xmlrpc /pedido; abuso moderado (propuesta 2026-10-14)."
-    },
-    {
       "asn": 27411,
       "name": "Leaseweb USA (Chicago)",
       "country": "US",
@@ -226,20 +184,6 @@
       "notes": "Spray claro (decenas de IPs a 1–2 req)."
     },
     {
-      "asn": 33322,
-      "name": "NDCHOST (Network Data Center Host)",
-      "country": "US",
-      "severity": "medium",
-      "notes": "Hosting; escaneo WordPress (/xmlrpc.php, /wp-login.php, /wp-admin/)."
-    },
-    {
-      "asn": 33387,
-      "name": "Nocix, LLC",
-      "country": "US",
-      "severity": "medium",
-      "notes": "Hosting; UA falso Googlebot; scrape de imágenes de producto."
-    },
-    {
       "asn": 36007,
       "name": "Kamatera, Inc.",
       "country": "US",
@@ -252,20 +196,6 @@
       "country": "US",
       "severity": "high",
       "notes": "Spray en 23.95.163.0/24 y 198.46.220.0/24."
-    },
-    {
-      "asn": 36454,
-      "name": "WHG Hosting Services Ltd",
-      "country": "US",
-      "severity": "medium",
-      "notes": "Hosting; xmlrpc path spray (propuesta 2026-10-14)."
-    },
-    {
-      "asn": 36680,
-      "name": "Netiface LLC",
-      "country": "US",
-      "severity": "medium",
-      "notes": "Hosting/VPN; caza de secretos (/.env, /config.json)."
     },
     {
       "asn": 38186,
@@ -287,13 +217,6 @@
       "country": "NL",
       "severity": "medium",
       "notes": "Hosting; volumen moderado multi-IP."
-    },
-    {
-      "asn": 40021,
-      "name": "Contabo Inc.",
-      "country": "US",
-      "severity": "medium",
-      "notes": "VPS Contabo US; abuso moderado (propuesta 2026-10-12/13)."
     },
     {
       "asn": 40676,
@@ -338,13 +261,6 @@
       "notes": "Hosting; patrón agresivo multi-IP."
     },
     {
-      "asn": 48324,
-      "name": "webgo GmbH",
-      "country": "DE",
-      "severity": "medium",
-      "notes": "Hosting; xmlrpc path spray (propuesta 2026-10-14)."
-    },
-    {
       "asn": 50077,
       "name": "SYN LTD",
       "country": "GB",
@@ -357,20 +273,6 @@
       "country": "DE",
       "severity": "medium",
       "notes": "VPS grande; scrape de imágenes de producto; posible falso positivo."
-    },
-    {
-      "asn": 53514,
-      "name": "UHQ Services LLC",
-      "country": "US",
-      "severity": "medium",
-      "notes": "Hosting; abuso moderado (propuesta 2026-10-12/13)."
-    },
-    {
-      "asn": 53667,
-      "name": "FranTech Solutions (PONYNET)",
-      "country": "US",
-      "severity": "high",
-      "notes": "Hosting/VPN (BuyVM); patrón agresivo (propuesta 2026-10-12/13)."
     },
     {
       "asn": 53850,
@@ -434,13 +336,6 @@
       "country": "US",
       "severity": "high",
       "notes": "Hosting; patrón agresivo (propuesta 2026-10-12/13)."
-    },
-    {
-      "asn": 63949,
-      "name": "Akamai Connected Cloud (Linode)",
-      "country": "US",
-      "severity": "medium",
-      "notes": "Cloud; spray xmlrpc desde IPv6 (propuesta 2026-10-16). Posible falso positivo."
     },
     {
       "asn": 64249,
@@ -597,13 +492,6 @@
       "notes": "Salida VPN; tráfico de proxy/VPN."
     },
     {
-      "asn": 199457,
-      "name": "SolidCore Hosting",
-      "country": "DE",
-      "severity": "high",
-      "notes": "Hosting; spray wp-login (propuesta 2026-10-16)."
-    },
-    {
       "asn": 200373,
       "name": "3xK Tech GmbH",
       "country": "DE",
@@ -714,13 +602,6 @@
       "country": "RO",
       "severity": "high",
       "notes": "Hosting; tráfico agresivo concentrado en pocas IPs."
-    },
-    {
-      "asn": 209341,
-      "name": "WHG Hosting Services",
-      "country": "GB",
-      "severity": "medium",
-      "notes": "Hosting; escaneo WordPress (/xmlrpc.php, /wp-login.php)."
     },
     {
       "asn": 209372,
@@ -910,13 +791,6 @@
       "country": "US",
       "severity": "medium",
       "notes": "Hosting/proxy; volumen alto multi-IP."
-    },
-    {
-      "asn": 403005,
-      "name": "Blatant Technologies, LLC",
-      "country": "SC",
-      "severity": "high",
-      "notes": "Hosting; patrón agresivo (propuesta 2026-10-12/13)."
     }
   ]
 }
