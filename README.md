@@ -28,7 +28,7 @@ curl -fsSL https://raw.githubusercontent.com/mansildor/cloudflare-asn-blocklist/
 Acción recomendada: **Block**. Mantén aparte un `skip` para pasarelas de pago si aplica (p.ej. Redsys ASN 31627).
 
 ```
-(ip.src.asnum eq 174) or (ip.src.asnum eq 5065) or (ip.src.asnum eq 7979) or (ip.src.asnum eq 9009) or (ip.src.asnum eq 11798) or (ip.src.asnum eq 14061) or (ip.src.asnum eq 17497) or (ip.src.asnum eq 18779) or (ip.src.asnum eq 20473) or (ip.src.asnum eq 26658) or (ip.src.asnum eq 27411) or (ip.src.asnum eq 30058) or (ip.src.asnum eq 36352) or (ip.src.asnum eq 39600) or (ip.src.asnum eq 46261) or (ip.src.asnum eq 46635) or (ip.src.asnum eq 47007) or (ip.src.asnum eq 51167) or (ip.src.asnum eq 53856) or (ip.src.asnum eq 55286) or (ip.src.asnum eq 62874) or (ip.src.asnum eq 63023) or (ip.src.asnum eq 64249) or (ip.src.asnum eq 132203) or (ip.src.asnum eq 132817) or (ip.src.asnum eq 136787) or (ip.src.asnum eq 142430) or (ip.src.asnum eq 142622) or (ip.src.asnum eq 197170) or (ip.src.asnum eq 200373) or (ip.src.asnum eq 201341) or (ip.src.asnum eq 202412) or (ip.src.asnum eq 203020) or (ip.src.asnum eq 204287) or (ip.src.asnum eq 204646) or (ip.src.asnum eq 206092) or (ip.src.asnum eq 207043) or (ip.src.asnum eq 207990) or (ip.src.asnum eq 209372) or (ip.src.asnum eq 210906) or (ip.src.asnum eq 211680) or (ip.src.asnum eq 212238) or (ip.src.asnum eq 213541) or (ip.src.asnum eq 263740) or (ip.src.asnum eq 393886) or (ip.src.asnum eq 394380) or (ip.src.asnum eq 394474) or (ip.src.asnum eq 396319) or (ip.src.asnum eq 396356) or (ip.src.asnum eq 398781) or (ip.src.asnum eq 399073) or (ip.src.asnum eq 400529) or (ip.src.asnum eq 401152) or (ip.src.asnum eq 401560)
+(ip.src.asnum eq 174) or (ip.src.asnum eq 5065) or (ip.src.asnum eq 7979) or (ip.src.asnum eq 9009) or (ip.src.asnum eq 11798) or (ip.src.asnum eq 14061) or (ip.src.asnum eq 17497) or (ip.src.asnum eq 18779) or (ip.src.asnum eq 20473) or (ip.src.asnum eq 23033) or (ip.src.asnum eq 26658) or (ip.src.asnum eq 27411) or (ip.src.asnum eq 30058) or (ip.src.asnum eq 36352) or (ip.src.asnum eq 39600) or (ip.src.asnum eq 46261) or (ip.src.asnum eq 46635) or (ip.src.asnum eq 47007) or (ip.src.asnum eq 51167) or (ip.src.asnum eq 53856) or (ip.src.asnum eq 55286) or (ip.src.asnum eq 62874) or (ip.src.asnum eq 63023) or (ip.src.asnum eq 64249) or (ip.src.asnum eq 132203) or (ip.src.asnum eq 132817) or (ip.src.asnum eq 136787) or (ip.src.asnum eq 142430) or (ip.src.asnum eq 142622) or (ip.src.asnum eq 197170) or (ip.src.asnum eq 197540) or (ip.src.asnum eq 200373) or (ip.src.asnum eq 201341) or (ip.src.asnum eq 202412) or (ip.src.asnum eq 203020) or (ip.src.asnum eq 204287) or (ip.src.asnum eq 204646) or (ip.src.asnum eq 206092) or (ip.src.asnum eq 207043) or (ip.src.asnum eq 207990) or (ip.src.asnum eq 209372) or (ip.src.asnum eq 210906) or (ip.src.asnum eq 211680) or (ip.src.asnum eq 212238) or (ip.src.asnum eq 213541) or (ip.src.asnum eq 263740) or (ip.src.asnum eq 393886) or (ip.src.asnum eq 394380) or (ip.src.asnum eq 394474) or (ip.src.asnum eq 396319) or (ip.src.asnum eq 396356) or (ip.src.asnum eq 398781) or (ip.src.asnum eq 399073) or (ip.src.asnum eq 400529) or (ip.src.asnum eq 401152) or (ip.src.asnum eq 401560)
 ```
 
 ### Rangos IP adicionales
@@ -75,6 +75,7 @@ En producción la lista de ASN se escribe en forma compacta `(ip.src.asnum in {.
 | 18779 | EGIHosting | US | **medium** | Hosting US. |
 | 20473 | Vultr (Constant Company) | US | **medium** | VPS popular; abuso frecuente de scrapers. |
 | 27411 | Leaseweb USA (Chicago) | US | **medium** | Familia Leaseweb USA. |
+| 23033 | Wowrack | US | **medium** | Hosting; DotBot (Moz) agresivo (propuesta 2026-10-21). |
 | 39600 | BUNNY TECHNOLOGY LLC | US | **medium** | Hosting/proxy; abuso moderado (propuesta 2026-10-07). |
 | 51167 | Contabo GmbH | DE | **medium** | VPS grande; scrape de imágenes de producto; posible falso positivo. |
 | 53856 | NJ IX | US | **medium** | Hosting/IX; volumen moderado. |
@@ -90,6 +91,7 @@ En producción la lista de ASN se escribe en forma compacta `(ip.src.asnum in {.
 | 210906 | UAB Bite Lietuva (BITE-US) | LT | **medium** | Hosting/proxy; abuso moderado (propuesta 2026-10-07). |
 | 211680 | BitSight / NSEC | PT | **medium** | Escáner de reputación; tráfico de probes. |
 | 213541 | WS Telecom Inc | US | **medium** | Salida VPN/proxy; patrón multi-IP (posible falso positivo). |
+| 197540 | netcup GmbH | DE | **medium** | Hosting; MJ12bot en listados de categoría (propuesta 2026-10-21). |
 | 263740 | Corporacion Laceibanetsociety | HN | **medium** | Hosting; abuso moderado (propuesta 2026-10-07). |
 | 393886 | Leaseweb USA (Miami) | US | **medium** | Familia Leaseweb USA; spray bajo. |
 | 394380 | Leaseweb USA (Dallas) | US | **medium** | Familia Leaseweb USA. |

@@ -8,6 +8,7 @@ asn,name,country,severity
 17497,Liasail Global Hongkong,HK,medium
 18779,EGIHosting,US,medium
 20473,Vultr (Constant Company),US,medium
+23033,Wowrack,US,medium
 26658,Hengtong IDC,US,high
 27411,Leaseweb USA (Chicago),US,medium
 30058,FDCServers,US,high
@@ -28,6 +29,7 @@ asn,name,country,severity
 142430,DIGI VPS,IN,high
 142622,Dream Information Laboratory,JP,medium
 197170,TechTies Inc.,SC,medium
+197540,netcup GmbH,DE,medium
 200373,3xK Tech GmbH,DE,high
 201341,trafficforce / Centurion,LT,high
 202412,Omegatech LTD,SC,high

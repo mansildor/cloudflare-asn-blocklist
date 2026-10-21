@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -70,6 +70,13 @@
       "country": "US",
       "severity": "medium",
       "notes": "VPS popular; abuso frecuente de scrapers."
+    },
+    {
+      "asn": 23033,
+      "name": "Wowrack",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; DotBot (Moz) ~393 req, 244 con 502 (propuesta 2026-10-21)."
     },
     {
       "asn": 26658,
@@ -210,6 +217,13 @@
       "country": "SC",
       "severity": "medium",
       "notes": "Hosting; tráfico concentrado en pocas IPs."
+    },
+    {
+      "asn": 197540,
+      "name": "netcup GmbH",
+      "country": "DE",
+      "severity": "medium",
+      "notes": "Hosting; MJ12bot ~211 req en listados de categoría (propuesta 2026-10-21)."
     },
     {
       "asn": 200373,
