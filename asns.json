@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -322,6 +322,13 @@
       "country": "US",
       "severity": "medium",
       "notes": "Salida VPN/proxy; patrón multi-IP (posible falso positivo)."
+    },
+    {
+      "asn": 215703,
+      "name": "FreakHosting",
+      "country": "GB",
+      "severity": "medium",
+      "notes": "Hosting; tráfico de bots/scraper (propuesta 2026-10-22)."
     },
     {
       "asn": 263740,

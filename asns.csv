@@ -44,6 +44,7 @@ asn,name,country,severity
 211680,BitSight / NSEC,PT,medium
 212238,Datacamp / CDNEXT,GB,high
 213541,WS Telecom Inc,US,medium
+215703,FreakHosting,GB,medium
 263740,Corporacion Laceibanetsociety,HN,medium
 393886,Leaseweb USA (Miami),US,medium
 394380,Leaseweb USA (Dallas),US,medium
