@@ -1,6 +1,8 @@
 asn,name,country,severity
 174,Cogent Communications,US,low
+1207,Pittsburgh Supercomputing Center (PSC),US,medium
 5065,Bunny Communications,US,medium
+5739,University of California Santa Cruz (UCSC),US,medium
 7979,Servers.com,US,high
 9009,M247 Europe,RO,high
 11798,Ace Data Centers,US,medium

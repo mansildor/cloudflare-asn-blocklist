@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-22",
+  "updated": "2026-10-26",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -16,11 +16,25 @@
       "notes": "Backbone/tránsito. Volumen bajo en sitios ES; bloqueo por ruido internacional."
     },
     {
+      "asn": 1207,
+      "name": "Pittsburgh Supercomputing Center (PSC)",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Universidad/HPC; Chrome headless/148 en vizcaino, 686 req desde 128.182.81.33 (propuesta 2026-10-26)."
+    },
+    {
       "asn": 5065,
       "name": "Bunny Communications",
       "country": "US",
       "severity": "medium",
       "notes": "Hosting/proxy; abuso moderado (propuesta 2026-10-07)."
+    },
+    {
+      "asn": 5739,
+      "name": "University of California Santa Cruz (UCSC)",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Universidad; escáner PHP-Version-Research, 292 req desde 169.233.63.17 (propuesta 2026-10-26)."
     },
     {
       "asn": 7979,
