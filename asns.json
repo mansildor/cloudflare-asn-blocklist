@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-26",
+  "updated": "2026-10-30",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -77,6 +77,13 @@
       "country": "US",
       "severity": "medium",
       "notes": "Hosting US."
+    },
+    {
+      "asn": 19318,
+      "name": "Interserver",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting US; probes de wp-config en vizcaino (propuesta 2026-10-30)."
     },
     {
       "asn": 20473,
@@ -210,6 +217,13 @@
       "country": "PA",
       "severity": "medium",
       "notes": "VPN/proxy hosting; volumen alto en pocas IPs."
+    },
+    {
+      "asn": 137409,
+      "name": "GSL Networks",
+      "country": "AU",
+      "severity": "medium",
+      "notes": "Hosting/proxy; ~2.5k req sin User-Agent en vizcaino (propuesta 2026-10-30)."
     },
     {
       "asn": 142430,

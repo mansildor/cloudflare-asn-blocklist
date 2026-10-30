@@ -9,6 +9,7 @@ asn,name,country,severity
 14061,DigitalOcean,US,high
 17497,Liasail Global Hongkong,HK,medium
 18779,EGIHosting,US,medium
+19318,Interserver,US,medium
 20473,Vultr (Constant Company),US,medium
 23033,Wowrack,US,medium
 26658,Hengtong IDC,US,high
@@ -28,6 +29,7 @@ asn,name,country,severity
 132203,Tencent Cloud (TENCENT-NET-AP-CN),CN,high
 132817,DZCRD Networks,BD,medium
 136787,PacketHub S.A.,PA,medium
+137409,GSL Networks,AU,medium
 142430,DIGI VPS,IN,high
 142622,Dream Information Laboratory,JP,medium
 197170,TechTies Inc.,SC,medium
