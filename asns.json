@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-30",
+  "updated": "2026-11-02",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -315,6 +315,13 @@
       "country": "IN",
       "severity": "high",
       "notes": "Spray asociado a HostRoyale."
+    },
+    {
+      "asn": 208137,
+      "name": "Feo Prest",
+      "country": "RO",
+      "severity": "medium",
+      "notes": "Hosting; 1059 req desde 213.209.159.133 en vizcaino con UA Android Chrome/131 (propuesta 2026-11-02)."
     },
     {
       "asn": 209372,
