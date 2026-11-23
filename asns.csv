@@ -3,6 +3,7 @@ asn,name,country,severity
 1207,Pittsburgh Supercomputing Center (PSC),US,medium
 5065,Bunny Communications,US,medium
 5739,University of California Santa Cruz (UCSC),US,medium
+6079,RCN,US,medium
 7979,Servers.com,US,high
 9009,M247 Europe,RO,high
 11798,Ace Data Centers,US,medium
@@ -58,6 +59,7 @@ asn,name,country,severity
 396356,Latitude.sh,US,high
 398781,Oculus Networks,US,high
 399073,BUNNY TECHNOLOGY LLC (TBB-ASN),US,medium
+399979,49.3 Networking,US,medium
 400529,Infraly LLC,US,medium
 401152,Ace Data Centers II,US,medium
 401560,OneCable Network,US,medium

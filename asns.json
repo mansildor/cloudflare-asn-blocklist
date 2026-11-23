@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-24",
   "description": "ASN blocklist for Cloudflare WAF custom rules (sites with primarily Spanish audience). Severity is empirical from observed traffic patterns, not a global threat score.",
   "severity_scale": {
     "high": "Agresivo o mucho spray (muchas IPs 1–2 req / pocas IPs con miles de req)",
@@ -35,6 +35,13 @@
       "country": "US",
       "severity": "medium",
       "notes": "Universidad; escáner PHP-Version-Research, 292 req desde 169.233.63.17 (propuesta 2026-10-26)."
+    },
+    {
+      "asn": 6079,
+      "name": "RCN",
+      "country": "US",
+      "severity": "medium",
+      "notes": "ISP residencial US; ~2.9k req desde ~101 IPs (patrón de proxy/scraper), casi todas en farmaciamacias (propuesta 2026-11-23)."
     },
     {
       "asn": 7979,
@@ -420,6 +427,13 @@
       "country": "US",
       "severity": "medium",
       "notes": "Hosting/proxy; abuso moderado (propuesta 2026-10-07)."
+    },
+    {
+      "asn": 399979,
+      "name": "49.3 Networking",
+      "country": "US",
+      "severity": "medium",
+      "notes": "Hosting; 1081 req desde 45.139.104.58 (curl/8.6.0) en vizcaino, geolocalizadas en DE (propuesta 2026-11-23)."
     },
     {
       "asn": 400529,
